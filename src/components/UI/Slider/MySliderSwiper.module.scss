@@ -1,0 +1,42 @@
+.prev,.next{
+  background: #c3002f;
+  color: #fff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center !important;
+
+  &:after{
+    text-align: start;
+    font-weight: bold;
+    align-items: center;
+    font-size: 14px;
+    display: block !important;
+  }
+}
+.prev{
+  left: 0;
+}
+.next{
+  right: 0;
+}
+
+.swiper{
+
+  position: static;
+}
+
+.pagination{
+  background: #c3002f;
+}
+.next.swiper-button-lock{
+  display: none !important;
+}
+
+.swiperCont  {
+  .swiper-button-next21{
+    display: none !important;
+  }
+
+}

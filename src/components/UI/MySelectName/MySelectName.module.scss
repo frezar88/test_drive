@@ -1,0 +1,28 @@
+.item{
+    margin-bottom: 20px;
+    font-size: 22px !important;
+    label{
+        min-width: 140px !important;
+        font-size: 14px !important;
+        &:before{
+            color: #c3002f !important;
+        }
+    }
+    input{
+        font-size: 16px;
+        &:hover{
+            border-color: #c3002f;
+            box-shadow: 0 0 1px #c3002f;
+        }
+        &:focus{
+            border-color: #c3002f;
+            box-shadow: 0 0 1px #c3002f;
+        }
+    }
+}
+
+@media(max-width: 768px){
+    .item{
+        margin-bottom: 0;
+    }
+}

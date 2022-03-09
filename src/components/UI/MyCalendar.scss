@@ -1,0 +1,17 @@
+
+
+.react-calendar__tile--now{
+    background: unset ;
+    border: solid 1px #c3002f !important;
+    //color: #000 !important;
+    font-weight: bolder !important;
+    text-decoration: underline;
+    color: black;
+    &:hover{
+        background: #006edc !important;
+        color: #fff;
+    }
+}
+.react-calendar__navigation button:disabled{
+    background: unset !important;
+}

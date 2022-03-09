@@ -1,0 +1,17 @@
+.selectBlock{
+  opacity: 0;
+  animation:  1s show both linear;
+  transition: 1s;
+  animation-delay: .1s;
+}
+@keyframes show {
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}

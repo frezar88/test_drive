@@ -1,0 +1,19 @@
+@import "/src/utils/constSCSS";
+
+.button{
+  cursor: pointer;
+  transition: .3s;
+  background: $white;
+  border: solid 1px $gray;
+  box-shadow: 0 0 1px $white;
+  color: $gray;
+  font-size: 14px;
+  padding: 5px 10px;
+ font-weight: bold;
+  margin: 30px 0;
+  &:hover{
+    background: $nissanColor;
+    box-shadow: 0 0 1px $nissanColor;
+    color: $white;
+  }
+}

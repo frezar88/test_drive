@@ -1,0 +1,18 @@
+.mySelect{
+  font-size: 16px !important;
+  max-width: 500px ;
+  width: 100% ;
+  border:solid 1px #d9d9d9 !important;
+  box-shadow: none !important;
+
+}
+.drop {
+  div[aria-selected="true"]{
+    background: #c3002f !important;
+    color: #fff;
+  }
+}
+
+.mySelect .ant-select:not(.ant-select-disabled):hover .ant-select-selector{
+  border-color: #c3002f !important;
+}

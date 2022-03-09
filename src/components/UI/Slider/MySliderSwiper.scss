@@ -1,0 +1,27 @@
+.swiper-button-next, .swiper-button-prev {
+  background: #c3002f;
+  color: #fff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center !important;
+  &:after {
+    text-align: start;
+    font-weight: bold;
+    align-items: center;
+    font-size: 14px;
+    display: block !important;
+  }
+
+}
+
+.swiper-button-prev{
+  left: 0;
+}
+.swiper-button-next{
+  right: 0;
+}
+.swiper-button-lock{
+  display: none;
+}
